@@ -14,7 +14,9 @@
   <link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/stylesheet.css">
 	<!--[if IE]><script src="/"></script><![endif]-->
 </head>
-<body><div id="header_wrap" class="outer">{% include common/header/header.html %}</div>
-<div id="main_content_wrap" class="outer">{{content}}</div>
-<div id="footer_wrap" class="outer">{% include common/footer/footer.html %}</div></body>
+<body>
+{% include common/header/header.html %}
+<div class="content-wrap">{{content}}</div>
+{% include common/footer/footer.html %}
+</body>
 </html>
