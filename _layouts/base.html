@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html id="theme theme-{{page.theme}}">
+<html id="{{page.theme}}">
 <head>
 	<meta charset="utf-8" />
 	<link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
@@ -12,12 +12,8 @@
   <meta name="description" content="Lichenhao.github.io : A blog " />
 	<title>{{page.title}}</title>
   <link rel="stylesheet"  media="screen" href="/stylesheets/stylesheet.css">
-  {% if page.theme %}
-  <link rel="stylesheet" media="screen" href="/stylesheets/theme-{{page.theme}}.css" />
-  {% endif %}
-	<!--[if IE]><script src="/"></script><![endif]-->
 </head>
-<body>
+<body id="theme">
 {% include common/header/header.html %}
 <div class="content-wrap">{{content}}</div>
 {% include common/footer/footer.html %}
