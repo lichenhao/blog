@@ -1,0 +1,7 @@
+---
+layout: base
+title: 再见了百度
+---
+# {{page.title}}
+
+终将放手，离开这里。
