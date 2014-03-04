@@ -1,6 +1,7 @@
 ---
 layout: base
 title: 再见了百度
+theme: default
 ---
 # {{page.title}}
 
