@@ -1,4 +1,4 @@
-lichenhao.github.io
-===================
+blog
+====
 
 A blog 
