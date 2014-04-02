@@ -1,0 +1,13 @@
+---
+layout: base
+title: 再见了百度
+---
+# {{page.title}}
+<script src="http://lichenhao.github.io/javascripts/angular.min.js"></script>
+<div ng-app="user">
+  <div>
+    <input type="text" ng-model="user.name" value="Ryota" /> 
+    <span>{{user.name}}</span>
+  </div>
+  <div><input type="text" ng-model="user.age" value="25" /><span>{{user.age}}</span></div>
+</div>
